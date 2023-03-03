@@ -21,10 +21,18 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
 }
-.list {
+.list,
+.header-href-list,
+.adress-list,
+.wawd-list,
+.ourteam-list,
+.btn-list,
+.projects-list,
+.project-link {
   text-decoration: none;
   list-style: none;
 }
+
 .link {
   text-decoration: none;
   list-style: none;
@@ -184,15 +192,7 @@ body {
 /*-----------------------------------------------PORTFOLIO PAGE------------------------------*/
 
 /*------------------------------------------ Projects Section------------------------------*/
-.btn-list {
-  list-style: none;
-}
-.projects-list {
-  list-style: none;
-}
-.project-link {
-  text-decoration: none;
-}
+
 .nav-button {
   font-family: "Roboto", sans-serif;
   font-style: normal;
