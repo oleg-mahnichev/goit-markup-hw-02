@@ -1,6 +1,5 @@
 /* CSS variables */
 :root {
-  --main-background-color: #ffffff;
   --corporate-color: #4d5ae5;
   --hero-background-color: #2e2f42;
   --hero-title-text-color: #ffffff;
@@ -18,7 +17,6 @@
   --footer-text-color: #e7e9fc;
 }
 body {
-  background: var(--main-background-color);
   font-family: "Roboto", sans-serif;
 }
 .list {
@@ -37,15 +35,15 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-text-color);
+  color: var(--corporate-color);
 }
 .header-logo-span {
-  color: var(--corporate-color);
+  color: var(--title-text-color);
 }
 .header-list {
   font-weight: 500;
@@ -59,9 +57,11 @@ body {
 .header-list:active {
   color: var(--hover-link-color);
 }
+.adress {
+  font-style: normal;
+}
 .header-adress {
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
@@ -85,6 +85,7 @@ body {
 }
 .hero-btn {
   background-color: var(--hero-btn-background);
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -118,7 +119,7 @@ body {
 /****------------------------------------ Section "What are we doing"--------------------------------****/
 .wawd-title {
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -161,16 +162,16 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--footer-text-color);
+  color: var(--corporate-color);
 }
 
 .footer-logo-span {
-  color: var(--corporate-color);
+  color: var(--footer-text-color);
 }
 .footer-text {
   font-size: 16px;
@@ -180,8 +181,26 @@ body {
 }
 /*-----------------------------------------------PORTFOLIO PAGE------------------------------*/
 
-/* ------------------------------------------Navigation Page Section----------------------- */
+/*------------------------------------------ Projects Section------------------------------*/
+.list-btn {
+  list-style: none;
+}
+.list-projects {
+  list-style: none;
+}
+.link-project {
+  text-decoration: none;
+}
 .nav-button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
   background: var(--nav-btn-background);
   border: 1px solid var(--nav-btn-border-color);
   border-radius: 4px;
@@ -190,8 +209,6 @@ body {
   flex-grow: 0;
   color: var(--nav-btn-text-color);
 }
-
-/**------------------------------------------ Projects Section------------------------------**/
 .project-title {
   font-weight: 500;
   font-size: 20px;
