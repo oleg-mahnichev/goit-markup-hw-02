@@ -21,19 +21,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
 }
-.list,
-.header-href-list,
-.adress-list,
-.wawd-list,
-.ourteam-list,
-.btn-list,
-.projects-list,
-.project-link {
-  text-decoration: none;
-  list-style: none;
-}
-
-.link {
+* {
   text-decoration: none;
   list-style: none;
 }
