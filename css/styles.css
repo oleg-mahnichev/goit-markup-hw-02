@@ -15,9 +15,11 @@
   --ourteam-background: #f4f4fd;
   --footer-background: #2e2f42;
   --footer-text-color: #e7e9fc;
+  --footer-span-text-color: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--text-color);
 }
 .list {
   text-decoration: none;
@@ -171,7 +173,7 @@ body {
 }
 
 .footer-logo-span {
-  color: var(--footer-text-color);
+  color: var(--footer-span-text-color);
 }
 .footer-text {
   font-size: 16px;
@@ -182,13 +184,13 @@ body {
 /*-----------------------------------------------PORTFOLIO PAGE------------------------------*/
 
 /*------------------------------------------ Projects Section------------------------------*/
-.list-btn {
+.btn-list {
   list-style: none;
 }
-.list-projects {
+.projects-list {
   list-style: none;
 }
-.link-project {
+.project-link {
   text-decoration: none;
 }
 .nav-button {
