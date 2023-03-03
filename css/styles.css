@@ -29,6 +29,10 @@ body {
   cursor: pointer;
 }
 /*------------------------------------HEADER-----------------------------------*/
+.header {
+}
+.header-nav {
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -43,21 +47,25 @@ body {
 .header-logo-span {
   color: var(--title-text-color);
 }
-.header-list {
+
+.header-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-.header-list:hover,
-.header-list:focus,
-.header-list:active {
+
+.header-item:hover,
+.header-item:focus,
+.header-item:active {
   color: var(--hover-link-color);
 }
+
 .adress {
   font-style: normal;
 }
+
 .header-adress {
   font-size: 16px;
   line-height: 1.5;
@@ -69,8 +77,7 @@ body {
 .header-adress:active {
   color: var(--hover-link-color);
 }
-
-/**---------------------------------------------- HERO Section---------------------------**/
+/* --------------------------------------------------HERO SECTION */
 .hero-section {
   background-color: var(--hero-background-color);
 }
@@ -92,29 +99,30 @@ body {
   letter-spacing: 0.04em;
   color: var(--hero-btn-text-color);
 }
-
 .hero-btn:hover,
 .hero-btn:focus,
 .hero-btn:active {
   background-color: var(--pressed-btn-background);
 }
-/***---------------------------------------------- Section "About Webstudio"---------------------------***/
-
-.about-title-list {
+/**-------------------------------------------ABOUT SECTION */
+.about-list {
+}
+.about-title-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-
-.about-list-item {
+.about-text-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-/****------------------------------------ Section "What are we doing"--------------------------------****/
+/* ------------------------------------------WHAT ARE WE DOING */
+.wawd-section {
+}
 .wawd-title {
   font-size: 36px;
   line-height: 1.11;
@@ -123,7 +131,11 @@ body {
   text-transform: capitalize;
   color: var(--title-text-color);
 }
-/*****---------------------------------- Section "Our Team"-----------------------------------------*****/
+.wawd-list {
+}
+.wawd=item-img {
+}
+/* --------------------------------------------OUR TEAM */
 .ourteam-section {
   background-color: var(--ourteam-background);
 }
@@ -135,7 +147,11 @@ body {
   text-transform: capitalize;
   color: var(--title-text-color);
 }
-.ourteam-title-list {
+.ourteam-list {
+}
+.ourteam-item-img {
+}
+.ourteam-name-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -143,15 +159,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-.ourteam-item-list {
+.ourteam-job-item {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-
-/******---------------------------------------------- Footer----------------------------------******/
+/* -----------------------------------------------------FOOTER */
 .footer {
   background-color: var(--footer-background);
 }
@@ -167,7 +182,8 @@ body {
   text-transform: uppercase;
   color: var(--corporate-color);
 }
-
+.link {
+}
 .footer-logo-span {
   color: var(--footer-span-text-color);
 }
@@ -177,38 +193,4 @@ body {
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
 }
-/*-----------------------------------------------PORTFOLIO PAGE------------------------------*/
-
-/*------------------------------------------ Projects Section------------------------------*/
-
-.nav-button {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  background: var(--nav-btn-background);
-  border: 1px solid var(--nav-btn-border-color);
-  border-radius: 4px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  color: var(--nav-btn-text-color);
-}
-.project-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-}
-.project-item {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
+/* ---------------------------------PORTFOLIO_HTML--------------------------- */
